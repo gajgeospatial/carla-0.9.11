@@ -79,7 +79,7 @@ cd "%OSM2ODR_VSPROJECT_PATH%"
 
 rem Build OSM2ODR
 if %BUILD_OSM2ODR% == true (
-    cmake -G "Visual Studio 15 2017 Win64"^
+    cmake -G "Visual Studio 16 2019 Win64"^
         -DCMAKE_CXX_FLAGS_RELEASE="/MD /MP"^
         -DCMAKE_INSTALL_PREFIX="%OSM2ODR_INSTALL_PATH:\=/%"^
         "%ROOT_PATH%\Util\OSM2ODR"
