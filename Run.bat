@@ -1,0 +1,3 @@
+    echo Launching Unreal Editor...
+    call "%UE4_ROOT%\Engine\Binaries\Win64\UE4Editor.exe"^
+        "%UE4_PROJECT_FOLDER%CarlaUE4.uproject"
